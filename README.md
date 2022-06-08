@@ -24,3 +24,7 @@ git clone https://github.com/fabricioveronez/conversao-temperatura.git
   # Executando a Imagem , a aplicaçao 
   
   docker container run -d -p 8080:8080 mvcardim/conversaotemperatura-json:v1 
+  
+  # Executando a Aplicaçao
+  
+  docker container run -d -p 8080:8080 mvcardim/conversaotemperatura-json:v1
